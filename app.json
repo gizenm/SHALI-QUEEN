@@ -1,0 +1,49 @@
+{
+    "name": " SHALI QUEEN",
+    "description": "An advance LOGO bot with more features ",
+    "logo": "https://telegra.ph/file/6415178d5e1eaab866398.jpg",
+    "keywords": [
+        "SongBot",
+        "Song Downloader",
+        "szbot"
+    ],
+    "website": "http://ts.ml",
+    "repository": "https://github.com/youtubeslgeJKUHJekshow/sz-roseJ-bot",
+    "success_url": "https://t.me/SLLKMKK_bot_zone",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Your APP ID from my.telegram.org",
+            "value": ""
+        },
+        "BOT_USERNAME": {
+            "description": "Your bot username without @",
+            "value": ""
+        },
+        "BOT_OWNER": {
+            "description": "Your telegram id",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
